@@ -1,0 +1,52 @@
+:root {
+  --text-disabled: $subtle !important;
+  --color-text-secondary: $subtle !important;
+
+  --sys-color-base: $base !important;
+  --sys-color-base-container: $surface !important;
+  --sys-color-cdt-base-container: $surface !important;
+  --sys-color-neutral-container: $base !important;
+  --sys-color-divider: $overlay !important;
+
+  --sys-color-tonal-container: color-mix(in oklab, $surface, $pine 30%) !important;
+  --sys-color-surface: $surface !important;
+  --sys-color-surface1: $overlay !important;
+  --sys-color-surface2: $highlightMed !important;
+  --sys-color-surface3: $highlightHigh !important;
+
+  --sys-color-on-surface: $text !important;
+  --sys-color-on-tonal-container: $text !important;
+  --sys-color-on-surface-subtle: $subtle !important;
+  --sys-color-token-subtle: $subtle !important;
+
+  --sys-color-primary: color-mix(in oklab, $text, $love 30%) !important;
+  --sys-color-primary-bright: $love !important;
+
+  --sys-color-token-tag: color-mix(in oklab, $foam, blue 20%) !important;
+  --sys-color-token-attribute: color-mix(in oklab, $iris, lightblue 20%) !important;
+  --sys-color-token-attribute-value: color-mix(in oklab, $rose, red 20%) !important;
+  --sys-color-on-error-container: $text !important;
+  --sys-color-surface-error: color-mix(in oklab, $surface, $love 15%) !important;
+  --sys-color-error-bright: $love !important;
+
+  --sys-color-surface-yellow: color-mix(in oklab, $surface, $gold 10%) !important;
+  --sys-color-error-bright: $love !important;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  background-color: color-mix(in oklab, $surface, $rose 10%);
+  accent-color: $text;
+  border: solid 1px $subtle;
+  position: relative;
+
+  &:checked {
+    background-color: color-mix(in oklab, $love, $text 10%);
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+input[type="radio"] {
+  border-radius: 100%;
+}

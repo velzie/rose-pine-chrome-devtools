@@ -1,0 +1,12 @@
+{
+  "name": "rose-pine-chrome-devtools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "velzie",
+  "license": "MIT",
+  "dependencies": {
+    "@rose-pine/build": "^0.9.1"
+  }
+}
