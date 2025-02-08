@@ -1,8 +1,18 @@
+# THIS IS BROKEN DO NOT USE
+
+Starting from M127 the [chrome.devtools.panels.applyStyleSheet](https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/5893199) API has been dropped, making this project no longer work.
+
+
+<br><br>
+<br>
+
+
+
+
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
     <h2 align="center">Rosé Pine for Chrome Devtools</h2>
 </p>
-
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
 
 <p align="center">
